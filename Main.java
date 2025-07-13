@@ -1,22 +1,8 @@
-/**
- * Classe principale démontrant l'utilisation des méthodes statiques de la classe SupermatUtils.
- * Ce programme sert de point d'entrée et de démonstration pour le projet SUPERMAT en Java.
- */
 public class Main {
-    
-    /**
-     * Constructeur privé pour empêcher l'instanciation de cette classe utilitaire.
-     * Toutes les fonctionnalités sont accessibles via la méthode main statique.
-     */
     private Main() {
         throw new UnsupportedOperationException("Classe d'exemple - ne pas instancier");
     }
-    /**
-     * Point d'entrée principal du programme.
-     * Crée des matrices, effectue des opérations matricielles et affiche les résultats.
-     * 
-     * @param args Arguments de la ligne de commande (non utilisés dans cet exemple)
-     */
+
     public static void main(String[] args) {
         // Création d'une matrice 3x3
         Supermat matA = SupermatUtils.allouerSupermat(3, 3);
@@ -81,10 +67,6 @@ public class Main {
         SupermatUtils.rendreSupermat(fromTab);
     }
 
-    /**
-     * Affiche une matrice Supermat sur la sortie standard.
-     * @param m Matrice à afficher
-     */
     public static void printSupermat(Supermat m) {
         if (m == null) {
             System.out.println("(null)");
