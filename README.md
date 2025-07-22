@@ -1,3 +1,12 @@
+Groupe de :
+- Mohamed LO
+- Alioune Diallo
+- Fatoumata Barro
+- Amarou Balde
+- Ndiaga Gueye
+- Youssouf G. Diatta
+
+
 L’objet de ce problème est l’écriture d’une bibliothèque de fonctions constituant une implantation améliorée des matrices de
 nombres flottants, par exemple en double précision. Une matrice codée comme nous le proposons ici est appelée une
 supermatrice. Elle est composée de trois éléments :
